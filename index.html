@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Children's Helpline Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Children's Helpline Center</h1>
+    <p>We are here to listen, support, and protect you ❤️</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#form">Get Help</a>
+    <a href="#chat">Live Chat</a>
+</nav>
+
+<section id="home" class="section">
+    <h2>Emergency Helpline</h2>
+    <p class="helpline-number">📞 Call: 1098 (24/7 Toll Free)</p>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        Our Children's Helpline provides free and confidential support 
+        to children facing abuse, bullying, mental stress, or any emergency.
+        We ensure safety, care, and protection.
+    </p>
+</section>
+
+<section id="form" class="section">
+    <h2>Request Help</h2>
+    <form id="helpForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="number" id="age" placeholder="Your Age" required>
+        <textarea id="issue" placeholder="Describe your issue..." required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
+
+<section id="chat" class="section">
+    <h2>Live Chat (Demo)</h2>
+    <div class="chat-box" id="chatBox"></div>
+    <input type="text" id="chatInput" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+</section>
+
+<footer>
+    <p>© 2026 Children's Helpline Center | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
